@@ -1,0 +1,129 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/* animations */
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+body, html {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+#wrapper {
+	display: flex;
+	align-content: center;
+	flex-direction: column;
+	margin: 50px;
+}
+
+#navContainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 600px;
+	margin: 25px 0;
+	font-family: 'Source Code Pro', monospace;
+	font-size: 15px;
+}
+
+.navLink:link {
+    text-decoration: none;
+}
+
+.navLink:visited {
+    text-decoration: none;
+	color: #2700FF; 
+}
+
+.navLink:hover {
+    background-color: #2700FF;
+	color: white;
+	padding: 25px;
+    text-align: center; 
+}
+
+.navLink:active {
+    text-decoration: none;
+	color: #2700FF; 
+}
+
+.line {
+	width: 100%;
+	height: 10px;
+	background-color: black;
+/*	display: none;*/
+}
+
+.lineBottom {
+	width: 100%;
+	height: 10px;
+	background-color: black;
+	margin-top: 200px;
+}
+
+.mainHeader {
+	font-family: 'Share Tech Mono', monospace;
+	font-size: 175px;
+}
+
+.display-none {
+	display: none;
+}
+
+#title {
+	font-family: 'Share Tech Mono', monospace;
+	font-size: 50px;
+}
+
+.subtitle {
+	font-family: 'Share Tech Mono', monospace;
+	font-size: 25px;
+	border-bottom: solid black 1px;
+}
+
+.body {
+	font-family: 'Source Code Pro', monospace;
+	font-size: 15px;
+}
+
+.subscript {
+	font-family: 'Source Code Pro', monospace;
+	font-size: 15px;
+	color: #2700FF;
+}
+
+.quote {
+	font-family: 'Share Tech Mono', monospace;
+	font-size: 25px;
+	color: #2700FF;
+}
+
+.credit {
+	font-family: 'Source Code Pro', monospace;
+	font-size: 15px;
+	color: #2700FF;
+}
+
+.link {
+	margin: 50px 0;
+}
+
+img {
+	width: 100%;
+}
+
+.inspiration {
+	margin-bottom: 50px;
+}
+
+.moodboard {
+	margin: 50px 0;
+}
+
+video {
+	margin-bottom: 50px;
+}
